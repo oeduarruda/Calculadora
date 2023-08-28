@@ -26,7 +26,7 @@
     width: 400px;
     height: 500px;
     margin-top: 60px;
-    border: 5px double rgb(116, 116, 116);
+    border: 5px solid rgb(116, 116, 116);
 }
 
 .row-display {
