@@ -1,0 +1,53 @@
+.layout-letras {
+    font-size: 16px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.display {
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+}
+
+.bg-pag {
+    background-color: rgb(24, 24, 24);
+}
+
+.btn-calc {
+    width: 90%;
+    height: 70px;
+    margin: 5px;
+}
+
+
+.container {
+    background-color: rgb(57, 57, 57);
+    width: 400px;
+    height: 500px;
+    margin-top: 60px;
+    border: 5px double rgb(116, 116, 116);
+}
+
+.row-display {
+    margin-bottom: 30px;
+}
+
+.titulo {
+    text-align: center;
+    color: #0026ff6a;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.bg-pers-1 {
+    background: #8f8f8f14;
+}
+.bg-pers-2 {
+    background: #31d2f219;
+}
+.bg-pers-3 {
+    background: #19875418;
+}
+.bg-pers-4 {
+    background: #bb2d3b1d;
+}
