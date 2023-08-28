@@ -1,53 +1,57 @@
-.layout-letras {
-    font-size: 16px;
-    text-align: left;
-    font-weight: bold;
-}
-
 .display {
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 90%;
     font-size: 30px;
+    color: black;
 }
 
 .bg-pag {
-    background-color: rgb(24, 24, 24);
+    background-color: #1c3753;
 }
 
 .btn-calc {
-    width: 90%;
-    height: 70px;
-    margin: 5px;
+    width: 100%;
+    height: 72px;
+    margin: 3px;
 }
 
 
 .container {
-    background-color: rgb(57, 57, 57);
-    width: 400px;
+    background-color: #000000af;
+    width: 390px;
     height: 500px;
     margin-top: 60px;
-    border: 5px solid rgb(116, 116, 116);
+    border: solid #5cdf04a1;
+    border-radius: 7px;
+    border-width: 5px 4px 9px 4px;
 }
 
-.row-display {
-    margin-bottom: 30px;
+.bg-img {
+    background-image: url('https://images6.alphacoders.com/121/1211942.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
+
 
 .titulo {
-    text-align: center;
-    color: #ffffff6a;
+    text-align: left;
+    color: #5cdf04a1;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .bg-pers-1 {
     background: #8f8f8f14;
 }
+
 .bg-pers-2 {
     background: #31d2f219;
 }
+
 .bg-pers-3 {
     background: #19875418;
 }
+
 .bg-pers-4 {
-    background: #bb2d3b1d;
+    background: #bb2d3b2c;
 }

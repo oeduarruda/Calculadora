@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="bg-pag">
+<html class="bg-img">
 
 <head>
     <title>Calculadora 2.0</title>
@@ -11,41 +11,74 @@
     <script src="js/Calculador2.0.js"></script>
 </head>
 
-<body class="bg-pag">
+<body class="bg-img">
     <div class="container">
-        <h2 class="title">Calcular</h2>
+        <h1 class="titulo"><b>Calculadora</b></h1>
 
         <div class="row row-display">
             <div class="col-9">
-                <input class='display' type='text' disabled value="0" id="display"><br>
-                <input class="display" type='text' hidden id='historico'><br>
+                <input class='display btn-calc bg-secondary' type='text' disabled value="0" id="display"><br>
+                <input class="display  btn-calc" type='text' hidden id='historico'><br>
             </div>
-            <div class="col-3"><button>c</button>c<br>
+            <div class="col-3">
+                <button type='button' class="col-3 btn btn-outline-danger btn-calc bg-pers-4">c</button><br>
             </div>
         </div>
         <div class="row">
-            <div class="col-3"><button>7</button></div>
-            <div class="col-3"><button>8</button></div>
-            <div class="col-3"><button>9</button></div>
-            <div class="col-3"><button>/</button></div>
+            <div class="col-3">
+                <button type='button' class="col-3 btn btn-outline-secondary btn-calc bg-pers-1">7</button>
+            </div>
+            <div class="col-3">
+                <button type='button' class="col-3 btn btn-outline-secondary btn-calc bg-pers-1">8</button>
+            </div>
+            <div class="col-3">
+                <button type='button' class="col-3 btn btn-outline-secondary btn-calc bg-pers-1">9</button>
+            </div>
+            <div class="col-3">
+                <button type='button' class="col-3 btn btn-outline-info btn-calc bg-pers-2">/</button>
+            </div>
         </div>
         <div class="row">
-            <div class="col-3"><button>c</button></div>
-            <div class="col-3"><button>c</button></div>
-            <div class="col-3"><button>c</button></div>
-            <div class="col-3"><button>c</button></div>
+            <div class="col-3">
+                <button type='button' class="col-3 btn btn-outline-secondary btn-calc bg-pers-1">4</button>
+            </div>
+            <div class="col-3">
+                <button type='button' class="col-3 btn btn-outline-secondary btn-calc bg-pers-1">5</button>
+            </div>
+            <div class="col-3">
+                <button type='button' class="col-3 btn btn-outline-secondary btn-calc bg-pers-1">6</button>
+            </div>
+            <div class="col-3">
+                <button type='button' class="col-3 btn btn-outline-info btn-calc bg-pers-2">*</button>
+            </div>
         </div>
         <div class="row">
-            <div class="col-3"><button>c</button></div>
-            <div class="col-3"><button>c</button></div>
-            <div class="col-3"><button>c</button></div>
-            <div class="col-3"><button>c</button></div>
+            <div class="col-3">
+                <button type='button' class="col-3 btn btn-outline-secondary btn-calc bg-pers-1">1</button>
+            </div>
+            <div class="col-3">
+                <button type='button' class="col-3 btn btn-outline-secondary btn-calc bg-pers-1">2</button>
+            </div>
+            <div class="col-3">
+                <button type='button' class="col-3 btn btn-outline-secondary btn-calc bg-pers-1">3</button>
+            </div>
+            <div class="col-3">
+                <button type='button' class="col-3 btn btn-outline-info btn-calc bg-pers-2">-</button>
+            </div>
         </div>
         <div class="row">
-            <div class="col-3"><button>c</button></div>
-            <div class="col-3"><button>c</button></div>
-            <div class="col-3"><button>c</button></div>
-            <div class="col-3"><button>c</button></div>
+            <div class="col-3">
+                <button type='button' class="col-3 btn btn-outline-secondary btn-calc bg-pers-1">,</button>
+            </div>
+            <div class="col-3">
+                <button type='button' class="col-3 btn btn-outline-secondary btn-calc bg-pers-1">0</button>
+            </div>
+            <div class="col-3">
+                <button type='button' class="col-3 btn btn-outline-success btn-calc bg-pers-3">=</button>
+            </div>
+            <div class="col-3">
+                <button type='button' class="col-3 btn btn-outline-info btn-calc bg-pers-2">+</button>
+            </div>
         </div>
     </div>
 
